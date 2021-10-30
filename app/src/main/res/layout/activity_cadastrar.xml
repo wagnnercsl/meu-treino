@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastrarActivity">
+
+    <EditText
+        android:id="@+id/txtCircuito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nome do circuito"
+    />
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="NovoTreino"
+        android:ems="10"
+        android:text="Salvar"
+     />
+
+    <Button
+        android:id="@+id/btnAtualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="AtualizarTreino"
+        android:ems="10"
+        android:text="Atualizar"
+        android:visibility="gone"
+        />
+
+</android.widget.LinearLayout>
