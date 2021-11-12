@@ -4,11 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Wagnnerz/AndroidStudioProjects/MeuTreino/app/src/main/res/drawable/logo1.xml" value="0.14375" />
-        <entry key="..\:/Users/Wagnnerz/AndroidStudioProjects/MeuTreino/app/src/main/res/layout/activity_cadastrar.xml" value="0.33" />
+        <entry key="..\:/Users/Wagnnerz/AndroidStudioProjects/MeuTreino/app/src/main/res/layout/activity_cadastrar.xml" value="0.1" />
         <entry key="..\:/Users/Wagnnerz/AndroidStudioProjects/MeuTreino/app/src/main/res/layout/activity_cadastro.xml" value="0.33" />
-        <entry key="..\:/Users/Wagnnerz/AndroidStudioProjects/MeuTreino/app/src/main/res/layout/activity_detalhe.xml" value="0.196875" />
+        <entry key="..\:/Users/Wagnnerz/AndroidStudioProjects/MeuTreino/app/src/main/res/layout/activity_detalhe.xml" value="0.22" />
         <entry key="..\:/Users/Wagnnerz/AndroidStudioProjects/MeuTreino/app/src/main/res/layout/activity_lista.xml" value="0.196875" />
-        <entry key="..\:/Users/Wagnnerz/AndroidStudioProjects/MeuTreino/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Wagnnerz/AndroidStudioProjects/MeuTreino/app/src/main/res/layout/activity_main.xml" value="0.1" />
       </map>
     </option>
   </component>

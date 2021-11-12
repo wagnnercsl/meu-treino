@@ -26,7 +26,7 @@ class Database {
                 "${COL_ID} INTEGER PRIMARY KEY," +
                 "${COL_CIRCUITO} TEXT," +
                 "${COL_ATIVIDADE} TEXT," +
-                "${COL_DURACAO} FLOAT," +
+                "${COL_DURACAO} INT," +
                 "${COL_DATA} TEXT," +
                 "${COL_HORA} TEXT," +
                 "${COL_REALIZADO} BOOLEAN)"
@@ -52,6 +52,11 @@ class Database {
     fun Insert(treino: Treino): Long {
         val values = ContentValues()
         values.put("circuito", treino.circuito)
+        values.put("atividade", treino.atividade)
+        values.put("duracao", treino.duracao)
+        values.put("data", treino.data_treino)
+        values.put("realizado", treino.realizado)
+
         val id = database!!.insert(NOM_TABELA, "", values)
         return id;
     }
@@ -68,6 +73,11 @@ class Database {
         val values = ContentValues()
         values.put("_id", treino._id)
         values.put("circuito", treino.circuito)
+        values.put("atividade", treino.atividade)
+        values.put("duracao", treino.duracao)
+        values.put("data", treino.data_treino)
+        values.put("realizado", treino.realizado)
+
         val count = database!!.update(NOM_TABELA, values, "_id = ?", selectionArgs)
         return count
     }
